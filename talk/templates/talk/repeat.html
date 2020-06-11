@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Parrot Repeat</title>
+  </head>
+  <body>
+    <div>
+        <h1><a href="/">オウムのピートくん</a></h1>
+    </div>
+    <!-- <div>
+        <h2><a href="">あなた</a></h2>
+        <p>こんにちわ！ </p>
+    </div>
+        <p>-------------------</p>
+    <div>
+        <h2><a href="">ピート</a></h2>
+        <p>コンニチワ！ </p>
+    </div> -->
+
+    <div>
+        <h3>Web Speech APIサンプル</h3>
+        <button id="btn">音声認識開始</button>
+    </div>
+
+    <div id="content"></div>
+
+    <script src="{% static 'js/app.js' %}"></script>
+
+  </body>
+</html>
